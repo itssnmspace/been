@@ -1,0 +1,28 @@
+I, [2019-01-09T12:08:36.242936 #5482]  INFO -- : [fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] Started GET "/" for 127.0.0.1 at 2019-01-09 12:08:36 +0530
+F, [2019-01-09T12:08:36.244474 #5482] FATAL -- : [fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f]   
+F, [2019-01-09T12:08:36.244533 #5482] FATAL -- : [fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] ActionController::RoutingError (No route matches [GET] "/"):
+F, [2019-01-09T12:08:36.244564 #5482] FATAL -- : [fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f]   
+F, [2019-01-09T12:08:36.244595 #5482] FATAL -- : [fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+[fd2e4180-0fe9-4b19-8b6a-c38eec3ef83f] puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+I, [2019-01-09T12:08:40.429116 #5482]  INFO -- : [1540fc96-917a-4692-955b-333b6f5be249] Started GET "/welcome" for 127.0.0.1 at 2019-01-09 12:08:40 +0530
+I, [2019-01-09T12:08:40.544574 #5482]  INFO -- : [1540fc96-917a-4692-955b-333b6f5be249] Processing by WelcomeController#index as HTML
+I, [2019-01-09T12:08:40.551670 #5482]  INFO -- : [1540fc96-917a-4692-955b-333b6f5be249] Completed 200 OK in 7ms (Views: 0.2ms)
