@@ -1,12 +1,12 @@
 branch-defaults:
   master:
-    environment: coindcx-external
+    environment: CoindcxStaging-external
 environment-defaults:
-  coindcx-external:
+  CoindcxStaging-external:
     branch: null
     repository: null
 global:
-  application_name: coindcx
+  application_name: coinDCX-Staging
   default_ec2_keyname: coindcx
   default_platform: arn:aws:elasticbeanstalk:ap-south-1::platform/Passenger with Ruby
     2.5 running on 64bit Amazon Linux/2.8.7
